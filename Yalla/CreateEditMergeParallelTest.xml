@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CEMSuite">
+  <test thread-count="3" parallel="methods" name="CEMTest">
+    <classes>
+      <class name="testcases.EditLead"/>
+      <class name="testcases.CreateLead"/>
+      <class name="testcases.MergeLead"/>
+    </classes>
+  </test> <!-- CEMTest -->
+</suite> <!-- CEMSuite -->

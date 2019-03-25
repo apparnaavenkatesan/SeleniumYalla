@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CEMSuite]">
+  <test thread-count="5" name="CEMTest(failed)">
+    <classes>
+      <class name="testcases.CreateLead">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="createLead"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testcases.CreateLead -->
+      <class name="testcases.EditLead">
+        <methods>
+          <include name="editLead"/>
+        </methods>
+      </class> <!-- testcases.EditLead -->
+      <class name="testcases.DulicateLead">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="duplicateLead"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testcases.DulicateLead -->
+    </classes>
+  </test> <!-- CEMTest(failed) -->
+</suite> <!-- Failed suite [CEMSuite] -->

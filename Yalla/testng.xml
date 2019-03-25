@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestLeaf">
+  <test name="CDLeads">
+    <classes>
+      <class name="testcases.CreateLead"/>
+      <class name="testcases.DulicateLead"/>
+    </classes>
+  </test> <!-- CDLeads -->
+  
+  <!-- <test thread-count="2" name="TestParallel" parallel="classes" > Parallel After Sequence
+    <classes>
+      <class name="testcases.CreateLead"/>
+      <class name="testcases.DulicateLead"/>
+    </classes>
+  </test> TestParallel -->
+  
+  
+</suite> <!-- TestLeaf -->
